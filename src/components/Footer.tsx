@@ -15,8 +15,8 @@ const Footer = () => {
             <a href="#about" className="font-sans text-xs text-muted-foreground hover:text-primary transition-colors uppercase tracking-wide">
               About
             </a>
-            <a href="#products" className="font-sans text-xs text-muted-foreground hover:text-primary transition-colors uppercase tracking-wide">
-              Products
+            <a href="#product" className="font-sans text-xs text-muted-foreground hover:text-primary transition-colors uppercase tracking-wide">
+              Product
             </a>
             <a href="#process" className="font-sans text-xs text-muted-foreground hover:text-primary transition-colors uppercase tracking-wide">
               Process
