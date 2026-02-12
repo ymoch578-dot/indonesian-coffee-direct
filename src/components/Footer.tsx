@@ -5,7 +5,7 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
           <div>
             <span className="font-serif text-lg font-bold text-gradient-gold">
-              SEM Coffee
+              Coffee Supplier Indonesia
             </span>
             <p className="font-sans text-xs text-muted-foreground mt-1">
               PT. Sukses Ekspor Mandiri — Direct Coffee Exporter, Indonesia

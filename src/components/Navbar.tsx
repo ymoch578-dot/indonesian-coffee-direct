@@ -17,7 +17,7 @@ const Navbar = () => {
       <div className="container mx-auto flex items-center justify-between h-16 md:h-20 px-6">
         <a href="#" className="flex items-center gap-2">
           <span className="font-serif text-xl md:text-2xl font-bold text-gradient-gold">
-            SEM Coffee
+            Coffee Supplier Indonesia
           </span>
         </a>
 
