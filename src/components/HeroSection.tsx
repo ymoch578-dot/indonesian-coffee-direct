@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import heroImage from "@/assets/hero-coffee.jpg";
+import heroImage from "@/assets/dampit-origin.jpg";
 
 const HeroSection = () => {
   return (
@@ -8,7 +8,7 @@ const HeroSection = () => {
       <div className="absolute inset-0">
         <img
           src={heroImage}
-          alt="Indonesian coffee plantation"
+          alt="Dampit coffee plantation, Malang, East Java"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-background/80 via-background/60 to-background" />
@@ -22,7 +22,7 @@ const HeroSection = () => {
           transition={{ delay: 0.2 }}
           className="font-sans text-sm md:text-base tracking-[0.3em] uppercase text-primary mb-6"
         >
-          Direct from Indonesia to the World
+          Direct from Dampit, East Java — Indonesia
         </motion.p>
 
         <motion.h1
@@ -31,9 +31,9 @@ const HeroSection = () => {
           transition={{ delay: 0.4 }}
           className="text-4xl md:text-6xl lg:text-7xl font-serif font-bold leading-tight mb-6"
         >
-          Premium Indonesian Coffee
+          Robusta Dampit
           <br />
-          <span className="text-gradient-gold">Direct Export Partner</span>
+          <span className="text-gradient-gold">Green Bean Export</span>
         </motion.h1>
 
         <motion.p
@@ -42,9 +42,9 @@ const HeroSection = () => {
           transition={{ delay: 0.6 }}
           className="font-sans text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-10"
         >
-          PT. Sukses Ekspor Mandiri connects global buyers directly with
-          Indonesia's finest coffee origins — eliminating middlemen for
-          competitive pricing without compromising quality.
+          PT. Sukses Ekspor Mandiri delivers premium Robusta green beans
+          sourced directly from Dampit, Malang — one of Indonesia's most
+          renowned Robusta origins. Zero middlemen, competitive pricing.
         </motion.p>
 
         <motion.div
@@ -60,10 +60,10 @@ const HeroSection = () => {
             Request a Quote
           </a>
           <a
-            href="#products"
+            href="#product"
             className="px-8 py-4 border border-primary text-primary font-sans font-semibold text-sm tracking-wide uppercase rounded hover:bg-primary/10 transition-colors"
           >
-            Explore Origins
+            Our Green Bean
           </a>
         </motion.div>
       </div>

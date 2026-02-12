@@ -2,7 +2,7 @@ import { Helmet, HelmetProvider } from "react-helmet-async";
 import Navbar from "@/components/Navbar";
 import HeroSection from "@/components/HeroSection";
 import AboutSection from "@/components/AboutSection";
-import ProductsSection from "@/components/ProductsSection";
+import ProductSection from "@/components/ProductSection";
 import ProcessSection from "@/components/ProcessSection";
 import TrustSection from "@/components/TrustSection";
 import ContactSection from "@/components/ContactSection";
@@ -12,19 +12,19 @@ const Index = () => {
   return (
     <HelmetProvider>
       <Helmet>
-        <title>PT. Sukses Ekspor Mandiri — Premium Indonesian Coffee Direct Exporter</title>
+        <title>PT. Sukses Ekspor Mandiri — Robusta Dampit Green Bean Exporter</title>
         <meta
           name="description"
-          content="Direct Indonesian coffee exporter offering premium Arabica and Robusta beans from Sumatra, Java, and Sulawesi. Competitive pricing through direct sourcing. Request a quote today."
+          content="Direct exporter of premium Robusta Dampit green beans from East Java, Indonesia. Competitive pricing through direct sourcing from Dampit, Malang. Request a quote today."
         />
-        <meta name="keywords" content="Indonesian coffee exporter, green coffee beans, Sumatra Arabica, Java coffee, Robusta export, direct coffee sourcing, B2B coffee supply" />
+        <meta name="keywords" content="Robusta Dampit, green bean coffee, Indonesian coffee exporter, Dampit Malang, Robusta export, direct coffee sourcing, B2B green coffee" />
         <link rel="canonical" href="https://suksesekspormandiri.com" />
       </Helmet>
       <Navbar />
       <main>
         <HeroSection />
         <AboutSection />
-        <ProductsSection />
+        <ProductSection />
         <ProcessSection />
         <TrustSection />
         <ContactSection />
