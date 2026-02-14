@@ -9,7 +9,7 @@
     "tagline": "Langsung dari Dampit, Jawa Timur — Indonesia",
     "title1": "Robusta Dampit",
     "title2": "Ekspor Green Bean",
-    "description": "PT. Sukses Ekspor Mandiri menghadirkan green bean Robusta premium yang bersumber langsung dari Dampit, Malang — salah satu daerah penghasil Robusta terbaik di Indonesia. Tanpa perantara, harga kompetitif.",
+    "description": "PT. Sukses Ekspor Mandiri menyediakan green bean Robusta premium yang bersumber langsung dari Dampit, Malang — salah satu daerah penghasil Robusta terbaik di Indonesia. Harga kompetitif dengan kualitas terjamin.",
     "cta_quote": "Minta Penawaran",
     "cta_product": "Green Bean Kami"
   },
@@ -17,14 +17,12 @@
     "tagline": "Mengapa Sourcing Langsung",
     "title1": "Kualitas Premium,",
     "title2": "Harga Kompetitif",
-    "desc1": "Sebagai eksportir langsung yang berbasis di Indonesia, PT. Sukses Ekspor Mandiri menyediakan green bean Robusta langsung dari komunitas petani di Dampit, Malang — salah satu wilayah penghasil kopi paling produktif di Jawa Timur. Dengan memotong perantara, kami memberikan Robusta Indonesia asli dengan harga yang memberi keunggulan kompetitif bagi bisnis Anda.",
-    "desc2": "Tim kami bekerja langsung di lapangan bersama produsen lokal, memastikan setiap pengiriman green bean memenuhi standar kualitas yang dibutuhkan pasar Anda.",
-    "stat_destinations": "Tujuan Ekspor",
+    "desc1": "Sebagai perusahaan sourcing langsung yang berbasis di Indonesia, PT. Sukses Ekspor Mandiri menyediakan green bean Robusta dari komunitas petani di Dampit, Malang — salah satu wilayah penghasil kopi paling produktif di Jawa Timur. Kami berkomitmen menghadirkan Robusta Indonesia asli dengan harga kompetitif untuk bisnis Anda.",
+    "desc2": "Tim kami bekerja erat dengan produsen lokal, memastikan setiap batch green bean memenuhi standar kualitas yang dibutuhkan pasar Anda.",
+    "stat_destinations": "Jangkauan Pasar",
     "stat_destinations_value": "Global",
     "stat_sourcing": "Model Sourcing",
     "stat_sourcing_value": "Langsung",
-    "stat_middlemen": "Perantara",
-    "stat_middlemen_value": "Nol",
     "stat_quality": "Kontrol Kualitas",
     "stat_quality_value": "Ketat"
   },
@@ -54,13 +52,13 @@
     "tagline": "Cara Kerja",
     "title1": "Dari Asal ke",
     "title2": "Pelabuhan Anda",
-    "description": "Proses ekspor yang efisien dan transparan.",
+    "description": "Proses yang efisien dan transparan.",
     "step1_title": "Inquiry Awal",
     "step1_desc": "Sampaikan kebutuhan Anda — asal, grade, volume, dan tujuan. Kami merespons dalam 24 jam.",
     "step2_title": "Sampel & Harga",
     "step2_desc": "Terima penawaran kompetitif dengan harga transparan. Minta sampel untuk evaluasi kualitas langsung.",
     "step3_title": "Pemesanan & Pemrosesan",
-    "step3_desc": "Konfirmasi pesanan Anda. Kami menangani sourcing, kontrol kualitas, grading, dan dokumentasi ekspor.",
+    "step3_desc": "Konfirmasi pesanan Anda. Kami menangani sourcing, kontrol kualitas, grading, dan dokumentasi.",
     "step4_title": "Pengiriman & Pengantaran",
     "step4_desc": "Kopi Anda dikirim dari pelabuhan Indonesia dengan pelacakan penuh. Tersedia syarat FOB dan CIF."
   },
@@ -68,21 +66,21 @@
     "tagline": "Mengapa Memilih Kami",
     "title1": "Dibangun di Atas",
     "title2": "Transparansi",
-    "description": "Kami membangun kepercayaan melalui komunikasi jujur, kualitas konsisten, dan layanan andal — bukan klaim berlebihan.",
+    "description": "Kami membangun kepercayaan melalui komunikasi transparan, kualitas konsisten, dan layanan andal.",
     "item1_title": "Operasi Berbasis Indonesia",
     "item1_desc": "Berkantor pusat di Indonesia dengan akses langsung ke daerah penghasil kopi utama di seluruh nusantara.",
-    "item2_title": "Tim Perdagangan Berpengalaman",
-    "item2_desc": "Tim kami memiliki keahlian mendalam dalam sourcing kopi Indonesia, penilaian kualitas, dan logistik internasional.",
+    "item2_title": "Tim Perdagangan Berdedikasi",
+    "item2_desc": "Tim kami memiliki pengetahuan kuat dalam sourcing kopi Indonesia, penilaian kualitas, dan logistik internasional.",
     "item3_title": "Transparansi Asal",
     "item3_desc": "Ketertelusuran penuh dari kebun ke pelabuhan. Kami menyediakan informasi asal dan metode pemrosesan terperinci untuk setiap lot.",
-    "item4_title": "Dokumentasi Ekspor Lengkap",
-    "item4_desc": "Semua pengiriman dilengkapi dokumentasi ekspor lengkap: Sertifikat Asal, Sertifikat Fitosanitari, dan sertifikat ICO."
+    "item4_title": "Dokumentasi Lengkap",
+    "item4_desc": "Semua pengiriman dilengkapi dokumentasi lengkap: Sertifikat Asal, Sertifikat Fitosanitari, dan sertifikat ICO."
   },
   "contact": {
     "tagline": "Hubungi Kami",
     "title1": "Mulai",
     "title2": "Kemitraan Kopi Anda",
-    "description": "Baik Anda baru pertama kali mencari kopi Indonesia atau sedang mencari mitra pasokan yang lebih kompetitif, kami ingin mendengar dari Anda. Sampaikan kebutuhan Anda dan tim kami akan menyiapkan proposal yang disesuaikan.",
+    "description": "Baik Anda baru pertama kali mencari kopi Indonesia atau sedang mencari mitra pasokan yang andal, kami ingin mendengar dari Anda. Sampaikan kebutuhan Anda dan tim kami akan menyiapkan proposal yang disesuaikan.",
     "label_name": "Nama Lengkap",
     "label_company": "Perusahaan",
     "label_email": "Email Bisnis",
@@ -99,7 +97,7 @@
     "toast_desc": "Terima kasih! Tim kami akan merespons dalam 24 jam."
   },
   "footer": {
-    "company": "PT. Sukses Ekspor Mandiri — Eksportir Kopi Langsung, Indonesia",
+    "company": "PT. Sukses Ekspor Mandiri — Sourcing Kopi Langsung, Indonesia",
     "rights": "© {{year}} PT. Sukses Ekspor Mandiri. Hak cipta dilindungi."
   }
 }
