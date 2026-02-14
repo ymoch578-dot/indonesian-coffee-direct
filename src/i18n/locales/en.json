@@ -9,7 +9,7 @@
     "tagline": "Direct from Dampit, East Java — Indonesia",
     "title1": "Robusta Dampit",
     "title2": "Green Bean Export",
-    "description": "PT. Sukses Ekspor Mandiri delivers premium Robusta green beans sourced directly from Dampit, Malang — one of Indonesia's most renowned Robusta origins. Zero middlemen, competitive pricing.",
+    "description": "PT. Sukses Ekspor Mandiri provides premium Robusta green beans sourced directly from Dampit, Malang — one of Indonesia's most renowned Robusta origins. Competitive pricing with reliable quality.",
     "cta_quote": "Request a Quote",
     "cta_product": "Our Green Bean"
   },
@@ -17,14 +17,12 @@
     "tagline": "Why Direct Sourcing",
     "title1": "Premium Quality,",
     "title2": "Competitive Pricing",
-    "desc1": "As a direct exporter based in Indonesia, PT. Sukses Ekspor Mandiri sources Robusta green beans straight from farming communities in Dampit, Malang — one of East Java's most productive coffee regions. By cutting out intermediaries, we deliver authentic Indonesian Robusta at prices that give your business a real competitive edge.",
-    "desc2": "Our team works on the ground with local producers, ensuring every shipment of green beans meets the quality standards your market demands.",
-    "stat_destinations": "Export Destinations",
+    "desc1": "As a direct sourcing company based in Indonesia, PT. Sukses Ekspor Mandiri provides Robusta green beans from farming communities in Dampit, Malang — one of East Java's most productive coffee regions. We are committed to delivering authentic Indonesian Robusta at competitive prices for your business.",
+    "desc2": "Our team works closely with local producers, ensuring every batch of green beans meets the quality standards your market demands.",
+    "stat_destinations": "Market Reach",
     "stat_destinations_value": "Global",
     "stat_sourcing": "Sourcing Model",
     "stat_sourcing_value": "Direct",
-    "stat_middlemen": "Middlemen",
-    "stat_middlemen_value": "Zero",
     "stat_quality": "Quality Control",
     "stat_quality_value": "Rigorous"
   },
@@ -54,13 +52,13 @@
     "tagline": "How It Works",
     "title1": "From Origin to",
     "title2": "Your Port",
-    "description": "A streamlined export process designed for efficiency and transparency.",
+    "description": "A streamlined process designed for efficiency and transparency.",
     "step1_title": "Initial Inquiry",
     "step1_desc": "Share your requirements — origin, grade, volume, and destination. We respond within 24 hours.",
     "step2_title": "Sample & Pricing",
     "step2_desc": "Receive a competitive quote with transparent pricing. Request samples to evaluate quality firsthand.",
     "step3_title": "Order & Processing",
-    "step3_desc": "Confirm your order. We handle sourcing, quality control, grading, and export documentation.",
+    "step3_desc": "Confirm your order. We handle sourcing, quality control, grading, and documentation.",
     "step4_title": "Shipment & Delivery",
     "step4_desc": "Your coffee ships from Indonesian ports with full tracking. FOB and CIF terms available."
   },
@@ -68,21 +66,21 @@
     "tagline": "Why Choose Us",
     "title1": "Built on",
     "title2": "Transparency",
-    "description": "We earn your trust through honest communication, consistent quality, and reliable service — not inflated claims.",
+    "description": "We build trust through transparent communication, consistent quality, and reliable service.",
     "item1_title": "Indonesia-Based Operations",
     "item1_desc": "Headquartered in Indonesia with direct access to major coffee-producing regions across the archipelago.",
-    "item2_title": "Experienced Trade Team",
-    "item2_desc": "Our team brings deep expertise in Indonesian coffee sourcing, quality assessment, and international logistics.",
+    "item2_title": "Dedicated Trade Team",
+    "item2_desc": "Our team has strong knowledge in Indonesian coffee sourcing, quality assessment, and international logistics.",
     "item3_title": "Origin Transparency",
     "item3_desc": "Full traceability from farm to port. We provide detailed origin information and processing methods for every lot.",
-    "item4_title": "Proper Export Documentation",
-    "item4_desc": "All shipments include complete export documentation: Certificate of Origin, Phytosanitary Certificate, and ICO certificates."
+    "item4_title": "Proper Documentation",
+    "item4_desc": "All shipments include complete documentation: Certificate of Origin, Phytosanitary Certificate, and ICO certificates."
   },
   "contact": {
     "tagline": "Get in Touch",
     "title1": "Start Your",
     "title2": "Coffee Partnership",
-    "description": "Whether you're sourcing Indonesian coffee for the first time or looking for a more competitive supply partner, we'd love to hear from you. Share your requirements and our team will prepare a tailored proposal.",
+    "description": "Whether you're sourcing Indonesian coffee for the first time or looking for a reliable supply partner, we'd love to hear from you. Share your requirements and our team will prepare a tailored proposal.",
     "label_name": "Full Name",
     "label_company": "Company",
     "label_email": "Business Email",
@@ -99,7 +97,7 @@
     "toast_desc": "Thank you! Our team will respond within 24 hours."
   },
   "footer": {
-    "company": "PT. Sukses Ekspor Mandiri — Direct Coffee Exporter, Indonesia",
+    "company": "PT. Sukses Ekspor Mandiri — Direct Coffee Sourcing, Indonesia",
     "rights": "© {{year}} PT. Sukses Ekspor Mandiri. All rights reserved."
   }
 }

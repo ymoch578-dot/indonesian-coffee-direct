@@ -1,6 +1,6 @@
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
-import { Globe, Handshake, TrendingDown, ShieldCheck } from "lucide-react";
+import { Globe, Handshake, ShieldCheck } from "lucide-react";
 import { useTranslation } from "react-i18next";
 
 const AboutSection = () => {
@@ -11,7 +11,6 @@ const AboutSection = () => {
   const stats = [
     { icon: Globe, label: t("about.stat_destinations"), value: t("about.stat_destinations_value") },
     { icon: Handshake, label: t("about.stat_sourcing"), value: t("about.stat_sourcing_value") },
-    { icon: TrendingDown, label: t("about.stat_middlemen"), value: t("about.stat_middlemen_value") },
     { icon: ShieldCheck, label: t("about.stat_quality"), value: t("about.stat_quality_value") },
   ];
 
@@ -43,7 +42,7 @@ const AboutSection = () => {
             initial={{ opacity: 0, y: 30 }}
             animate={isInView ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 0.8, delay: 0.2 }}
-            className="grid grid-cols-2 md:grid-cols-4 gap-4"
+            className="grid grid-cols-3 gap-4"
           >
             {stats.map((stat) => (
               <div
