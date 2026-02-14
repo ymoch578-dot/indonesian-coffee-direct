@@ -1,17 +1,19 @@
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 import { Globe, Handshake, TrendingDown, ShieldCheck } from "lucide-react";
-
-const stats = [
-  { icon: Globe, label: "Export Destinations", value: "Global" },
-  { icon: Handshake, label: "Sourcing Model", value: "Direct" },
-  { icon: TrendingDown, label: "Middlemen", value: "Zero" },
-  { icon: ShieldCheck, label: "Quality Control", value: "Rigorous" },
-];
+import { useTranslation } from "react-i18next";
 
 const AboutSection = () => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: "-100px" });
+  const { t } = useTranslation();
+
+  const stats = [
+    { icon: Globe, label: t("about.stat_destinations"), value: t("about.stat_destinations_value") },
+    { icon: Handshake, label: t("about.stat_sourcing"), value: t("about.stat_sourcing_value") },
+    { icon: TrendingDown, label: t("about.stat_middlemen"), value: t("about.stat_middlemen_value") },
+    { icon: ShieldCheck, label: t("about.stat_quality"), value: t("about.stat_quality_value") },
+  ];
 
   return (
     <section id="about" className="section-padding bg-secondary/30" ref={ref}>
@@ -23,26 +25,20 @@ const AboutSection = () => {
             transition={{ duration: 0.8 }}
           >
             <p className="font-sans text-sm tracking-[0.2em] uppercase text-primary mb-4">
-              Why Direct Sourcing
+              {t("about.tagline")}
             </p>
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-serif font-bold mb-6 leading-tight">
-              Premium Quality,{" "}
-              <span className="text-gradient-gold">Competitive Pricing</span>
+              {t("about.title1")}{" "}
+              <span className="text-gradient-gold">{t("about.title2")}</span>
             </h2>
             <p className="text-muted-foreground font-sans leading-relaxed mb-4">
-              As a direct exporter based in Indonesia, PT. Sukses Ekspor Mandiri
-              sources Robusta green beans straight from farming communities in
-              Dampit, Malang — one of East Java's most productive coffee regions.
-              By cutting out intermediaries, we deliver authentic Indonesian
-              Robusta at prices that give your business a real competitive edge.
+              {t("about.desc1")}
             </p>
             <p className="text-muted-foreground font-sans leading-relaxed mb-10">
-              Our team works on the ground with local producers, ensuring every
-              shipment of green beans meets the quality standards your market demands.
+              {t("about.desc2")}
             </p>
           </motion.div>
 
-          {/* Stats grid */}
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={isInView ? { opacity: 1, y: 0 } : {}}

@@ -1,7 +1,10 @@
 import { motion } from "framer-motion";
+import { useTranslation } from "react-i18next";
 import heroImage from "@/assets/dampit-origin.jpg";
 
 const HeroSection = () => {
+  const { t } = useTranslation();
+
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background */}
@@ -22,7 +25,7 @@ const HeroSection = () => {
           transition={{ delay: 0.2 }}
           className="font-sans text-sm md:text-base tracking-[0.3em] uppercase text-primary mb-6"
         >
-          Direct from Dampit, East Java — Indonesia
+          {t("hero.tagline")}
         </motion.p>
 
         <motion.h1
@@ -31,9 +34,9 @@ const HeroSection = () => {
           transition={{ delay: 0.4 }}
           className="text-4xl md:text-6xl lg:text-7xl font-serif font-bold leading-tight mb-6"
         >
-          Robusta Dampit
+          {t("hero.title1")}
           <br />
-          <span className="text-gradient-gold">Green Bean Export</span>
+          <span className="text-gradient-gold">{t("hero.title2")}</span>
         </motion.h1>
 
         <motion.p
@@ -42,9 +45,7 @@ const HeroSection = () => {
           transition={{ delay: 0.6 }}
           className="font-sans text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-10"
         >
-          PT. Sukses Ekspor Mandiri delivers premium Robusta green beans
-          sourced directly from Dampit, Malang — one of Indonesia's most
-          renowned Robusta origins. Zero middlemen, competitive pricing.
+          {t("hero.description")}
         </motion.p>
 
         <motion.div
@@ -57,13 +58,13 @@ const HeroSection = () => {
             href="#contact"
             className="px-8 py-4 bg-primary text-primary-foreground font-sans font-semibold text-sm tracking-wide uppercase rounded hover:bg-gold-light transition-colors"
           >
-            Request a Quote
+            {t("hero.cta_quote")}
           </a>
           <a
             href="#product"
             className="px-8 py-4 border border-primary text-primary font-sans font-semibold text-sm tracking-wide uppercase rounded hover:bg-primary/10 transition-colors"
           >
-            Our Green Bean
+            {t("hero.cta_product")}
           </a>
         </motion.div>
       </div>

@@ -1,33 +1,19 @@
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 import { MapPin, Users, Coffee, FileCheck } from "lucide-react";
-
-const trustItems = [
-  {
-    icon: MapPin,
-    title: "Indonesia-Based Operations",
-    desc: "Headquartered in Indonesia with direct access to major coffee-producing regions across the archipelago.",
-  },
-  {
-    icon: Users,
-    title: "Experienced Trade Team",
-    desc: "Our team brings deep expertise in Indonesian coffee sourcing, quality assessment, and international logistics.",
-  },
-  {
-    icon: Coffee,
-    title: "Origin Transparency",
-    desc: "Full traceability from farm to port. We provide detailed origin information and processing methods for every lot.",
-  },
-  {
-    icon: FileCheck,
-    title: "Proper Export Documentation",
-    desc: "All shipments include complete export documentation: Certificate of Origin, Phytosanitary Certificate, and ICO certificates.",
-  },
-];
+import { useTranslation } from "react-i18next";
 
 const TrustSection = () => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: "-100px" });
+  const { t } = useTranslation();
+
+  const trustItems = [
+    { icon: MapPin, title: t("trust.item1_title"), desc: t("trust.item1_desc") },
+    { icon: Users, title: t("trust.item2_title"), desc: t("trust.item2_desc") },
+    { icon: Coffee, title: t("trust.item3_title"), desc: t("trust.item3_desc") },
+    { icon: FileCheck, title: t("trust.item4_title"), desc: t("trust.item4_desc") },
+  ];
 
   return (
     <section className="section-padding" ref={ref}>
@@ -39,14 +25,13 @@ const TrustSection = () => {
           className="text-center mb-16"
         >
           <p className="font-sans text-sm tracking-[0.2em] uppercase text-primary mb-4">
-            Why Choose Us
+            {t("trust.tagline")}
           </p>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-serif font-bold mb-4">
-            Built on <span className="text-gradient-gold">Transparency</span>
+            {t("trust.title1")} <span className="text-gradient-gold">{t("trust.title2")}</span>
           </h2>
           <p className="text-muted-foreground font-sans max-w-xl mx-auto">
-            We earn your trust through honest communication, consistent quality, and
-            reliable service — not inflated claims.
+            {t("trust.description")}
           </p>
         </motion.div>
 
