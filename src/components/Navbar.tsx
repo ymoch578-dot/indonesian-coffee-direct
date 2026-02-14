@@ -1,16 +1,33 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Menu, X } from "lucide-react";
+import { Menu, X, Globe } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
-const navLinks = [
-  { label: "About", href: "#about" },
-  { label: "Product", href: "#product" },
-  { label: "Process", href: "#process" },
-  { label: "Contact", href: "#contact" },
+const languages = [
+  { code: "en", label: "EN" },
+  { code: "id", label: "ID" },
+  { code: "ar", label: "عربي" },
+  { code: "zh", label: "中文" },
 ];
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [langOpen, setLangOpen] = useState(false);
+  const { t, i18n } = useTranslation();
+
+  const navLinks = [
+    { label: t("nav.about"), href: "#about" },
+    { label: t("nav.product"), href: "#product" },
+    { label: t("nav.process"), href: "#process" },
+    { label: t("nav.contact"), href: "#contact" },
+  ];
+
+  const switchLang = (code: string) => {
+    i18n.changeLanguage(code);
+    setLangOpen(false);
+    // Set dir for Arabic
+    document.documentElement.dir = code === "ar" ? "rtl" : "ltr";
+  };
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-glass border-b border-border/50">
@@ -32,12 +49,41 @@ const Navbar = () => {
               {link.label}
             </a>
           ))}
-          <a
-            href="#contact"
-            className="px-5 py-2.5 bg-primary text-primary-foreground font-sans text-sm font-semibold rounded tracking-wide uppercase hover:bg-gold-light transition-colors"
-          >
-            Request Quote
-          </a>
+          {/* Language Switcher */}
+          <div className="relative">
+            <button
+              onClick={() => setLangOpen(!langOpen)}
+              className="flex items-center gap-1.5 px-4 py-2.5 border border-primary/50 text-primary font-sans text-sm font-semibold rounded tracking-wide uppercase hover:bg-primary/10 transition-colors"
+            >
+              <Globe className="w-4 h-4" />
+              {languages.find((l) => l.code === i18n.language)?.label || "EN"}
+            </button>
+            <AnimatePresence>
+              {langOpen && (
+                <motion.div
+                  initial={{ opacity: 0, y: -5 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  exit={{ opacity: 0, y: -5 }}
+                  transition={{ duration: 0.15 }}
+                  className="absolute right-0 top-full mt-2 bg-card border border-border/50 rounded-lg shadow-lg overflow-hidden min-w-[120px]"
+                >
+                  {languages.map((lang) => (
+                    <button
+                      key={lang.code}
+                      onClick={() => switchLang(lang.code)}
+                      className={`w-full text-left px-4 py-2.5 text-sm font-sans transition-colors hover:bg-primary/10 ${
+                        i18n.language === lang.code
+                          ? "text-primary font-semibold"
+                          : "text-foreground"
+                      }`}
+                    >
+                      {lang.label}
+                    </button>
+                  ))}
+                </motion.div>
+              )}
+            </AnimatePresence>
+          </div>
         </div>
 
         {/* Mobile toggle */}
@@ -70,13 +116,24 @@ const Navbar = () => {
                   {link.label}
                 </a>
               ))}
-              <a
-                href="#contact"
-                onClick={() => setIsOpen(false)}
-                className="px-5 py-2.5 bg-primary text-primary-foreground font-sans text-sm font-semibold rounded tracking-wide uppercase text-center"
-              >
-                Request Quote
-              </a>
+              <div className="flex gap-2">
+                {languages.map((lang) => (
+                  <button
+                    key={lang.code}
+                    onClick={() => {
+                      switchLang(lang.code);
+                      setIsOpen(false);
+                    }}
+                    className={`px-3 py-2 text-sm font-sans rounded border transition-colors ${
+                      i18n.language === lang.code
+                        ? "border-primary text-primary font-semibold bg-primary/10"
+                        : "border-border/50 text-muted-foreground hover:text-primary"
+                    }`}
+                  >
+                    {lang.label}
+                  </button>
+                ))}
+              </div>
             </div>
           </motion.div>
         )}
