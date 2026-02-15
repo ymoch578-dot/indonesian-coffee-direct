@@ -1,8 +1,8 @@
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 import { useTranslation } from "react-i18next";
-import robustaDampit from "@/assets/robusta-dampit.jpg";
-import coffeeBeans from "@/assets/coffee-beans.jpg";
+import coffee1 from "@/assets/coffee-1.png";
+import coffee2 from "@/assets/coffee-2.png";
 
 const specKeys = [
   { labelKey: "product.spec_origin", valueKey: "product.spec_origin_value" },
@@ -46,14 +46,14 @@ const ProductSection = () => {
             className="space-y-4"
           >
             <img
-              src={robustaDampit}
-              alt="Dampit Robusta green coffee beans"
-              className="rounded-lg w-full aspect-square object-cover border border-border/50"
+              src={coffee1}
+              alt="Premium green coffee beans"
+              className="rounded-lg w-full aspect-[3/2] object-cover border border-border/50"
             />
             <img
-              src={coffeeBeans}
+              src={coffee2}
               alt="Green bean quality inspection"
-              className="rounded-lg w-full aspect-[2/1] object-cover border border-border/50"
+              className="rounded-lg w-full aspect-[3/2] object-cover border border-border/50"
             />
           </motion.div>
 
