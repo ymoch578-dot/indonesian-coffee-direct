@@ -1,8 +1,8 @@
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 import { useTranslation } from "react-i18next";
-import robustaDampit from "@/assets/robusta-dampit.jpg";
-import coffeeBeans from "@/assets/coffee-beans.jpg";
+import coffee1 from "@/assets/coffee-1.png";
+import coffee2 from "@/assets/coffee-2.png";
 
 const specKeys = [
   { labelKey: "product.spec_origin", valueKey: "product.spec_origin_value" },
