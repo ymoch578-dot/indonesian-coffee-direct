@@ -9,7 +9,7 @@ const specKeys = [
   { labelKey: "product.spec_species", valueKey: "product.spec_species_value" },
   { labelKey: "product.spec_type", valueKey: "product.spec_type_value" },
   { labelKey: "product.spec_process", valueKey: "product.spec_process_value" },
-  { labelKey: "product.spec_altitude", valueKey: "product.spec_altitude_value" },
+  
   { labelKey: "product.spec_moisture", valueKey: "product.spec_moisture_value" },
 ];
 
