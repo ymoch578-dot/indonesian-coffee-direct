@@ -1,6 +1,6 @@
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
-import { MapPin, Users, Coffee, FileCheck } from "lucide-react";
+import { ShieldCheck, Leaf, Ship, Users } from "lucide-react";
 import { useTranslation } from "react-i18next";
 
 const TrustSection = () => {
@@ -9,10 +9,10 @@ const TrustSection = () => {
   const { t } = useTranslation();
 
   const trustItems = [
-    { icon: MapPin, title: t("trust.item1_title"), desc: t("trust.item1_desc") },
-    { icon: Users, title: t("trust.item2_title"), desc: t("trust.item2_desc") },
-    { icon: Coffee, title: t("trust.item3_title"), desc: t("trust.item3_desc") },
-    { icon: FileCheck, title: t("trust.item4_title"), desc: t("trust.item4_desc") },
+    { icon: ShieldCheck, title: t("trust.item1_title"), desc: t("trust.item1_desc") },
+    { icon: Leaf, title: t("trust.item2_title"), desc: t("trust.item2_desc") },
+    { icon: Ship, title: t("trust.item3_title"), desc: t("trust.item3_desc") },
+    { icon: Users, title: t("trust.item4_title"), desc: t("trust.item4_desc") },
   ];
 
   return (

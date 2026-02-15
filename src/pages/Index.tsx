@@ -12,12 +12,12 @@ const Index = () => {
   return (
     <HelmetProvider>
       <Helmet>
-        <title>PT. Sukses Ekspor Mandiri — Robusta Dampit Green Bean Exporter</title>
+        <title>PT. Sukses Ekspor Mandiri — Indonesian Robusta & Arabica Green Bean Exporter</title>
         <meta
           name="description"
-          content="Direct exporter of premium Robusta Dampit green beans from East Java, Indonesia. Competitive pricing through direct sourcing from Dampit, Malang. Request a quote today."
+          content="Direct exporter of premium Robusta and Arabica green beans from Indonesia. Competitive pricing through direct sourcing from Indonesia's finest coffee regions. Request a quote today."
         />
-        <meta name="keywords" content="Robusta Dampit, green bean coffee, Indonesian coffee exporter, Dampit Malang, Robusta export, direct coffee sourcing, B2B green coffee" />
+        <meta name="keywords" content="Indonesian coffee exporter, Robusta green bean, Arabica green bean, direct coffee sourcing, B2B green coffee, Indonesia coffee export" />
         <link rel="canonical" href="https://suksesekspormandiri.com" />
       </Helmet>
       <Navbar />
