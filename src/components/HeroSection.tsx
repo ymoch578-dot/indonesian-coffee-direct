@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
-import heroImage from "@/assets/dampit-origin.jpg";
+import heroImage from "@/assets/hero-coffee-plantation.jpg";
 
 const HeroSection = () => {
   const { t } = useTranslation();
