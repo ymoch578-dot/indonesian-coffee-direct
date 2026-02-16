@@ -48,42 +48,7 @@ const HeroSection = () => {
           {t("hero.description")}
         </motion.p>
 
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.8 }}
-          className="flex flex-col sm:flex-row gap-4 justify-center"
-        >
-          <a
-            href="#contact"
-            className="px-8 py-4 bg-primary text-primary-foreground font-sans font-semibold text-sm tracking-wide uppercase rounded hover:bg-gold-light transition-colors"
-          >
-            {t("hero.cta_quote")}
-          </a>
-          <a
-            href="#product"
-            className="px-8 py-4 border border-primary text-primary font-sans font-semibold text-sm tracking-wide uppercase rounded hover:bg-primary/10 transition-colors"
-          >
-            {t("hero.cta_product")}
-          </a>
-        </motion.div>
       </div>
-
-      {/* Scroll indicator */}
-      <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ delay: 1.2 }}
-        className="absolute bottom-8 left-1/2 -translate-x-1/2"
-      >
-        <motion.div
-          animate={{ y: [0, 8, 0] }}
-          transition={{ duration: 2, repeat: Infinity }}
-          className="w-5 h-8 rounded-full border-2 border-primary/40 flex items-start justify-center p-1"
-        >
-          <div className="w-1 h-2 bg-primary/60 rounded-full" />
-        </motion.div>
-      </motion.div>
     </section>
   );
 };

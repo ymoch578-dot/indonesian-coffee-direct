@@ -19,8 +19,8 @@
     "title2": "Competitive Pricing",
     "desc1": "As a direct sourcing company based in Indonesia, PT. Sukses Ekspor Mandiri provides Robusta and Arabica green beans from farming communities across Indonesia's most productive coffee regions. We are committed to delivering authentic Indonesian coffee at competitive prices for your business.",
     "desc2": "Our team works closely with local producers, ensuring every batch of green beans meets the quality standards your market demands.",
-    "stat_destinations": "Market Reach",
-    "stat_destinations_value": "Global",
+    "stat_destinations": "Supply Chain",
+    "stat_destinations_value": "Export-Ready",
     "stat_sourcing": "Sourcing Model",
     "stat_sourcing_value": "Direct",
     "stat_quality": "Quality Control",
@@ -60,7 +60,7 @@
     "step3_title": "Order & Processing",
     "step3_desc": "Confirm your order. We handle sourcing, quality control, grading, and documentation.",
     "step4_title": "Shipment & Delivery",
-    "step4_desc": "Your coffee ships from Indonesian ports with full tracking. FOB and CIF terms available."
+    "step4_desc": "We prepare coffee shipments from Indonesian ports with export-ready documentation and logistics coordination."
   },
   "trust": {
     "tagline": "Why Choose Us",

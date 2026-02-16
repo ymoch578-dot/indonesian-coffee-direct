@@ -19,8 +19,8 @@
     "title2": "有竞争力的价格",
     "desc1": "作为总部位于印度尼西亚的直接采购公司，PT. Sukses Ekspor Mandiri 从印度尼西亚各主要咖啡产区的农业社区提供罗布斯塔和阿拉比卡生豆。我们致力于以具有竞争力的价格为您的业务提供正宗的印度尼西亚咖啡。",
     "desc2": "我们的团队与当地生产者紧密合作，确保每批生豆都符合您市场所需的质量标准。",
-    "stat_destinations": "市场覆盖",
-    "stat_destinations_value": "全球",
+    "stat_destinations": "供应链",
+    "stat_destinations_value": "出口就绪",
     "stat_sourcing": "采购模式",
     "stat_sourcing_value": "直接",
     "stat_quality": "质量控制",
@@ -60,7 +60,7 @@
     "step3_title": "下单与加工",
     "step3_desc": "确认您的订单。我们负责采购、质量控制、分级和文件。",
     "step4_title": "装运与交付",
-    "step4_desc": "您的咖啡从印度尼西亚港口发运，提供全程追踪。可提供FOB和CIF条款。"
+    "step4_desc": "我们从印度尼西亚港口准备咖啡货运，提供出口就绪的文件和物流协调。"
   },
   "trust": {
     "tagline": "为什么选择我们",
