@@ -2,6 +2,7 @@ import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 import { ShieldCheck, Leaf, Ship, Users } from "lucide-react";
 import { useTranslation } from "react-i18next";
+import trustBg from "@/assets/coffee-plantation-trust.jpg";
 
 const TrustSection = () => {
   const ref = useRef(null);
@@ -16,8 +17,12 @@ const TrustSection = () => {
   ];
 
   return (
-    <section className="section-padding" ref={ref}>
-      <div className="container mx-auto px-6">
+    <section className="relative section-padding" ref={ref}>
+      <div className="absolute inset-0">
+        <img src={trustBg} alt="Indonesian coffee plantation" className="w-full h-full object-cover" />
+        <div className="absolute inset-0 bg-background/85" />
+      </div>
+      <div className="relative z-10 container mx-auto px-6">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={isInView ? { opacity: 1, y: 0 } : {}}
