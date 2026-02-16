@@ -19,8 +19,8 @@
     "title2": "Harga Kompetitif",
     "desc1": "Sebagai perusahaan sourcing langsung yang berbasis di Indonesia, PT. Sukses Ekspor Mandiri menyediakan green bean Robusta dan Arabica dari komunitas petani di berbagai daerah penghasil kopi terbaik Indonesia. Kami berkomitmen menghadirkan kopi Indonesia asli dengan harga kompetitif untuk bisnis Anda.",
     "desc2": "Tim kami bekerja erat dengan produsen lokal, memastikan setiap batch green bean memenuhi standar kualitas yang dibutuhkan pasar Anda.",
-    "stat_destinations": "Jangkauan Pasar",
-    "stat_destinations_value": "Global",
+    "stat_destinations": "Rantai Pasok",
+    "stat_destinations_value": "Siap Ekspor",
     "stat_sourcing": "Model Sourcing",
     "stat_sourcing_value": "Langsung",
     "stat_quality": "Kontrol Kualitas",
@@ -60,7 +60,7 @@
     "step3_title": "Pemesanan & Pemrosesan",
     "step3_desc": "Konfirmasi pesanan Anda. Kami menangani sourcing, kontrol kualitas, grading, dan dokumentasi.",
     "step4_title": "Pengiriman & Pengantaran",
-    "step4_desc": "Kopi Anda dikirim dari pelabuhan Indonesia dengan pelacakan penuh. Tersedia syarat FOB dan CIF."
+    "step4_desc": "Kami menyiapkan pengiriman kopi dari pelabuhan Indonesia dengan dokumentasi dan koordinasi logistik siap ekspor."
   },
   "trust": {
     "tagline": "Mengapa Memilih Kami",
