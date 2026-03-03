@@ -44,8 +44,10 @@
     "spec_altitude_value": "Varies by origin",
     "spec_moisture": "Moisture",
     "spec_moisture_value": "± 12%",
-    "custom_grading": "Custom grading available.",
-    "custom_grading_desc": "We can accommodate specific screen size, moisture content, and defect count requirements based on your market needs. Contact us to discuss your specifications.",
+    "content_p1": "We supply export-grade Indonesian Arabica and Robusta coffee sourced from selected producing regions across the country. Each lot is prepared specifically to meet international trade requirements, with controlled grading, stable moisture levels, and consistent preparation standards.",
+    "content_p2": "Our focus is on reliability — from quality consistency to container loading accuracy — ensuring smooth and efficient international transactions.",
+    "content_p3": "Both Arabica and Robusta beans are available in various processing methods and volumes based on buyer requirements. Every shipment undergoes internal quality checks prior to dispatch and is supported by complete export documentation.",
+    "content_p4": "In global trade, consistency and trust matter. We aim to deliver both.",
     "cta": "Request Sample & Quote"
   },
   "process": {
