@@ -61,37 +61,24 @@ const ProductSection = () => {
             initial={{ opacity: 0, x: 40 }}
             animate={isInView ? { opacity: 1, x: 0 } : {}}
             transition={{ duration: 0.8, delay: 0.2 }}
+            className="space-y-5"
           >
-            <h3 className="font-serif text-2xl font-bold mb-6">
-              {t("product.specs_title")}
-            </h3>
-            <div className="space-y-0 rounded-lg overflow-hidden border border-border/50">
-              {specKeys.map((spec, i) => (
-                <div
-                  key={spec.labelKey}
-                  className={`flex justify-between items-start gap-4 px-5 py-4 ${
-                    i % 2 === 0 ? "bg-card" : "bg-secondary/50"
-                  }`}
-                >
-                  <span className="font-sans text-sm text-muted-foreground uppercase tracking-wide flex-shrink-0">
-                    {t(spec.labelKey)}
-                  </span>
-                  <span className="font-sans text-sm text-foreground text-right">
-                    {t(spec.valueKey)}
-                  </span>
-                </div>
-              ))}
-            </div>
-
-            <div className="mt-6 p-5 rounded-lg bg-primary/10 border border-primary/20">
-              <p className="font-sans text-sm text-foreground leading-relaxed">
-                <strong>{t("product.custom_grading")}</strong> {t("product.custom_grading_desc")}
-              </p>
-            </div>
+            <p className="font-sans text-base text-foreground/90 leading-relaxed">
+              {t("product.content_p1")}
+            </p>
+            <p className="font-sans text-base text-foreground/90 leading-relaxed">
+              {t("product.content_p2")}
+            </p>
+            <p className="font-sans text-base text-foreground/90 leading-relaxed">
+              {t("product.content_p3")}
+            </p>
+            <p className="font-sans text-base text-foreground/90 leading-relaxed italic">
+              {t("product.content_p4")}
+            </p>
 
             <a
               href="#contact"
-              className="mt-6 inline-flex px-8 py-4 bg-primary text-primary-foreground font-sans font-semibold text-sm tracking-wide uppercase rounded hover:bg-gold-light transition-colors"
+              className="mt-4 inline-flex px-8 py-4 bg-primary text-primary-foreground font-sans font-semibold text-sm tracking-wide uppercase rounded hover:bg-gold-light transition-colors"
             >
               {t("product.cta")}
             </a>
