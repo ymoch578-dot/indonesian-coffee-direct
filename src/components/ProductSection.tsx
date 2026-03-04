@@ -46,11 +46,6 @@ const ProductSection = () => {
             className="space-y-4"
           >
             <img
-              src={coffee1}
-              alt="Premium green coffee beans"
-              className="rounded-lg w-full aspect-[3/2] object-cover border border-border/50"
-            />
-            <img
               src={coffee2}
               alt="Green bean quality inspection"
               className="rounded-lg w-full aspect-[3/2] object-cover border border-border/50"
