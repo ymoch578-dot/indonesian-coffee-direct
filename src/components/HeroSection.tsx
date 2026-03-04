@@ -14,7 +14,7 @@ const HeroSection = () => {
           alt="Dampit coffee plantation, Malang, East Java"
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-background/55 via-background/45 to-background/75" />
+        <div className="absolute inset-0 bg-background/50" />
       </div>
 
       {/* Content */}
